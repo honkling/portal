@@ -1,0 +1,7 @@
+name: Portal
+version: '${project.version}'
+main: me.honkling.portal.Portal
+api-version: 1.19
+prefix: Portal
+authors: [ honkling ]
+description: The core for /join DougRatman
