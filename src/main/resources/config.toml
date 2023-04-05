@@ -1,0 +1,38 @@
+debug = false
+
+# Chamber 1
+[[chambers]]
+[[chambers.radio]]
+x = 3.52
+y = -59.37
+z = -0.45
+yRotation = 150.0
+
+[[chambers.camera]]
+x = -2.7
+y = -57.45
+z = 3.5
+yRotation = -90.0
+zRotation = 25.0
+
+[[chambers.camera]]
+x = 2.5
+y = -57.45
+z = -8.7
+xRotation = 25.0
+
+[[chambers.portal]]
+type = "ORANGE"
+x = 3.0
+y = -59.0
+z = -2.0
+direction = "SOUTH"
+link = 1
+
+[[chambers.portal]]
+type = "BLUE"
+x = 6.0
+y = -60.0
+z = -2.0
+direction = "WEST"
+link = 0
